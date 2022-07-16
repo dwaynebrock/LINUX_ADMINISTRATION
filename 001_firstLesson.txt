@@ -1,0 +1,37 @@
+LINUX ADMINISTRATION BASIC COMMANDS:
+
+
+ls				list directory contents
+ls -a				list, showing hidden files
+
+cd				change to new directory
+cd..				change one level back
+cd ~				change to ROOT directory
+
+The file system is like a tree. The most basic level is called ROOT.
+The baths that follow it are BRANCHES.
+
+shells- the prompt is at Bash Shell
+
+pwd				print working directory
+
+/ is formost back directory
+
+observe:
+/home/atomicbadger/Documents/file_1.txt
+/home/atomicbadger/Documents/file_2.txt
+/home/atomicbadger/Documents/file_n.txt
+
+Down the file tree:
+/		ROOT level
+home		2nd level
+atomicbadger	3rd level
+Documents	4th level
+filename_n.txt	5th level
+
+touch <filename>		makes an empty file
+mkdir <dirname>			makes an empty directory
+rm <filename>			removes a file
+rmdir <dirname>			removes an EMPTY directory
+rm -r <dirname>			removes a directory and its contents
+
