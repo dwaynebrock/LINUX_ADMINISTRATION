@@ -1,0 +1,12 @@
+WHAT IS HAPPENING ON THIS MACHINE?
+SOME LINUX COMMANDS TO SARCH FOR MYSTERIES
+
+
+
+htop			shows processes active, based on the user active
+top			shows processes, centered on processes themselves
+
+netstat			shows network connections, routing, interface stats, multicast
+sudo netstat		more in-depth netstat
+netstat -tupln		a particular combination of netstat for searching
+man netstat		netstat info
