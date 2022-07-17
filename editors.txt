@@ -1,0 +1,13 @@
+LINUX TEXT EDITORS:
+
+
+
+nano				for beginners
+vi/vim				for the experienced
+emacs				for the experienced, very efficient
+
+man nano			manual entry
+man vi				manual entry
+
+sudo apt install emacs		installs emacs on ubuntu 20.04
+man emacs			after installed
