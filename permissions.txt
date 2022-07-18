@@ -1,0 +1,41 @@
+FILE PERMISSIONS:
+
+
+
+3 Types of file users:
+	1)  user- maker and owner of file.
+	2)  group- can contain multiple users.same general permission level.
+	3)  other- access, but not in user or group class of access.
+
+3 Permission types:
+	1)  read(r)-	can read file
+	2)  write(w)-	can overwrite file
+	3)  execute(x)-	can run file
+
+ex:
+	drwxr-xr-x
+		d for drive
+		user: next 3- rwx, all 3
+		group- next three, can read and run but not write
+		other-  can read and run but not wrire
+
+	-rw-r-r--
+		- for a file
+		user: read and write
+		group: read only
+		other: read only
+
+	man chmod
+	man chown
+
+	learn these commands.
+
+Permissions by number:
+	7:	read/write/execute
+	6:	read/write
+	5:	read/execute
+	4:	read only
+	3:	write/execute
+	2:	write only
+	1:	execute only
+	0:	no file permissions
