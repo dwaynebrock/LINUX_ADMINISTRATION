@@ -1,0 +1,42 @@
+PIPING AND REDIRECTION IN LINUX
+
+
+
+Processes in Linux run on one of three channels. Those channels are:
+
+1) standard input (STDIN:0)
+2) standard output (STDOUT:1)
+3) standard error (STDERR:2)
+
+example of sending output to a file:
+	echo "this should be in a file" > somefile.txt
+	cat somefile.txt
+
+note that this method overwrites whatever is already in a file. 
+Appending to a file without destroying what's already there is 
+	a different command. 
+
+ex:
+	echo "add line.2" >> somefile.txt
+	cat somefile.txt
+
+appends a line to the bottom of a preexisting file.
+
+note that > filename.txt is a de facto deletion if the area in front of > is blank.
+
+
+error output:
+	error output is different.
+	you have to specify if you want to put error output somewhere.
+	
+
+
+Piping is the sendong of the output of one command to the input of another.
+
+	form:	output_command | input_command
+	ex:	cat file1.txt | grep often
+	  -where cat prints out a file
+	  -and grep searches for the word "often" within it.
+	  -and only when both are true, the results are printed.
+	  
+
