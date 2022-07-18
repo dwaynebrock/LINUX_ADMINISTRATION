@@ -1,0 +1,27 @@
+DOUBLE AMPERSAND AND ADDITIONAL COMMANDS AFTER BEGINNING PIPING:
+
+
+
+&&-  allows for requirement of an additional operation
+
+ex:  prog1 && prog2
+	if prog1 is truem prog2 will also run.
+	otherwise neither program runs
+
+another example of the use of &&
+
+	ls file.txt && echo ""AMAZING SUCCESS."
+allows for additional commands to run in one entry.
+
+
+some commands to learn:
+
+	man sort
+	man cat
+	man cut
+	man wc
+	man grep
+	man uniq
+
+ex:
+	grep someone ./* |uniq | cut -d: -f1
