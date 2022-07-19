@@ -1,0 +1,27 @@
+PACKAGE MANAGEMENT IN LINUX:
+
+
+
+Some new commands to learn:
+
+	man apt
+	man apt-get
+
+	sudo apt-get update: updates current software
+	sudo apt-get upgrade: updates entire system to newest versions
+
+	can be done in one command:
+	sudo apt-get update && sudo apt-get upgrade
+
+	sudo apt-get install packagename
+	sudo apt-get remove packagename
+	apt-cache pkgnames
+
+	man apt-cache
+
+	dependencies: software packages required in advance for a current software to run
+	ppa-personal package archives- unverified available software
+
+	also look into snap software repositories
+
+
