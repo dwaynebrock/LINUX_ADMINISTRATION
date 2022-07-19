@@ -1,0 +1,42 @@
+LINUX USER ACCESS CONTROL:
+
+
+
+Everything in Linux is an object, whoich has an owner.
+
+Categories of Ownership:
+	Superuser
+	Admin rights
+	Group rights
+	other
+	none
+
+Ownership and rights applies to objects, processes, pand filesystems.
+A group as a whole is an object with an owner and rights hierarchy.
+An object may be of different kinds. directory, file, link, and so on.
+
+
+
+Learn these commands:
+	man whoami
+	man whois
+	man id
+	man useradd
+	man userdel
+	man usermod
+	man newusers
+
+3 Important files in user access control:
+	1) /etc/passwd
+	2) /etc/shadow
+	3) /etc/group
+
+These files are where in the system the controls for passwords are saved.
+The commands can be used to alter statuses, which save to these files.
+
+ls -l /home can be useful to know in checking users and owned areas.
+
+Also useful is grep groupname /ets/group
+
+/etc/skel provides a skeleton of information for use in creting with
+the useradd command.
