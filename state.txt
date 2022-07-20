@@ -1,0 +1,20 @@
+PROCESS STATE, NICENESS AND PROCESS MONITORING:
+
+
+
+every process looks t get cpu time to perform tasks.
+The kernel schedules those tasks.
+
+There are 4 process states in Linux:
+
+1) runable
+2) sleeping
+3) zombie
+4) stopped
+
+use top and htop commands to check state.
+niceness is a measure of resource use in consideration of other processes.
+The niceness rating priority in relation to other processes can be altered.
+
+man nice
+man renice

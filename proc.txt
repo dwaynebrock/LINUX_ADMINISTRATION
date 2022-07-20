@@ -1,0 +1,23 @@
+THE /proc FILESYSTEM:
+
+
+
+The /proc filesystem is a filesystem of processes.
+
+This is a virtual filesystem created by the kernal for this purpose.
+
+cd /proc && ls -l
+
+some types of files: get to know the system.
+
+init
+cmd
+cmdline
+cwd
+environ
+
+use cd and ls commands in these filesystems.
+
+man strace
+
+strace traces system calls and signals.
