@@ -1,0 +1,53 @@
+LINUX FILE SYSTEM BASICS:
+
+
+
+Linux does almost everything through files. 
+The majority of hardware, functions, ect. as well as applications,
+are represented by a file and between files.
+
+Processes communicate through files.
+
+
+be aware of absolute vs relative paths on a machine for files.
+
+file system:
+everything starts at root.
+The system has a definite hierarchy to be aware of, see here:
+
+man hier
+
+
+some important directories:
+
+
+/etc		configuration files local to the machine
+/proc		filesystem of processes
+/dev		special device files
+/bin		holds binaries for all users and links
+/sbin		holds operating system configuration binaries
+/lib		hold shared libraries between /bin and /sbin
+/opt		holds optional applications
+/tmp		holds temporary files
+
+/home		user directory
+
+
+LINUX FILE TYPES:
+
+-		denotes regular file
+d		denotes directory
+b		denotes block device files
+c		denotes character device files
+
+note that directories will contain meta information on files/
+
+you can search a directory for single entries or words.
+
+ex:	ls -l | grep Documents
+
+links	can be of both hard link, or symbolic/soft link types.
+socket	communication channel for applications
+
+man socket
+man port
