@@ -1,0 +1,27 @@
+FILE COMPRESSION AND DECOMPRESSION:
+
+
+man tar
+
+tar is the main command for file compression.
+
+sending an archive in tar format is a lot more efficient than sending files by
+ftp as the number of files starts to scale up. FTP is fine in small
+numbers, but you should switch to tar files as the number of files increases.
+
+common arguments with tar
+:
+	tar -zcfv
+
+		f- filename
+		v- verbose
+		c- create archive
+		z- compress the archive
+
+Be careful not to create tarbombs. When cloning files, do so from just
+outside the directory or create a special directory for it.
+
+extracting a tar file:
+	use -x option of tar.
+
+get to know the man tar entry well for using tar.
